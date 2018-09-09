@@ -42,15 +42,15 @@ $(document).on('click', ".crystal", function () {
     console.log(previousNumber);
 
     if (previousNumber > computerResult) {
-        loss--;
-        $("#loss").html("You loss: " + loss);
+        loss++;
+        $("#loss").html("Losses: " + loss);
         previousNumber = 0;
         resetAndStart();
     }
 
     else if (previousNumber === computerResult) {
         win++;
-        $("#win").html("You win: " + win);
+        $("#win").html("Wins: " + win);
         previousNumber = 0;
         resetAndStart();
     }
