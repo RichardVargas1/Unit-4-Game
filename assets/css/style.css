@@ -9,7 +9,8 @@ h1 {
     line-height: 50px;
     font-family: Georgia, Times, "Times New Roman", serif;
     text-align: center;
-    background-color: #ddd;
+    background-color: rgba(216, 128, 93, 0.603);
+    
 }
 
 #instructions {
@@ -19,37 +20,48 @@ h1 {
     margin: 20px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #ddd
+    background-color: rgba(216, 128, 93, 0.603);
+    color: black;
 }
 
 #goal {
     width: 150px;
     height: 30px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: white; 
 }
 
 #previousNumber {
     width: 150px;
     height: 30px;
-    background-color: white; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: teal;
+    color: white;
 }
 
 #win {
     width: 150px;
     height: 30px;
-    background-color: white; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: teal;
+    color: white;
 }
 
 #loss {
     width: 150px;
     height: 30px;
-    background-color: white; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: teal;
+    color: white;
 }
 
 .crystal {
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
+    width: 175px;
+    height: 175px;
     background-color: black;
 }
 
@@ -57,6 +69,8 @@ h1 {
     align-items: center;
     justify-content: space-around;
     display: flex;
+    margin-right: 250px;
+    margin-left: 250px;
 }
 
 footer {
@@ -66,7 +80,7 @@ footer {
     font-size: 14px;
     color: black;
     text-align: center;
-    background: #ddd;
+    background: rgba(216, 128, 93, 0.603);
     position: absolute;
     font-weight: bold
 }
